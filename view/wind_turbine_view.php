@@ -36,9 +36,8 @@ rendered in a browser
                                                                               margin: 40px auto; 
                                                                               background-color: #4e8a9f; 
                                                                               border: none; 
-                                                                              color: white;" onclick="loadWindTurbine()"/> <!--centers submit button-->
+                                                                              color: white;" onclick="loadWindTurbine()"/>
         </form>
-
 
         <!-- using ajax to call windTurbine function from model -->
         <script>
@@ -55,6 +54,7 @@ rendered in a browser
         </script>
         
         <!-- render ajax call on page-->
-        <div id="display_message" style="text-align: center;" ></div>
-
+        <div style="color: #4e8a9f; text-align: center;"  >
+            <marquee direction="up" height="200" width="450" bgcolor="#e6f8ff" text-color="#4e8a9f"><div id="display_message" style="text-align: center;" ></div></marquee>
+        </div>    
     </body>
