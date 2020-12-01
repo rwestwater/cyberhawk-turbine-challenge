@@ -6,34 +6,37 @@ rendered in a browser
 -->
 
 <DOCTYPE html>
-    <html lang = 'en'>
+    <html lang='en'>
     <head>
         
-        <meta charset = 'UTF-8'>
+        <meta charset='UTF-8'>
         <title> Cyberhawk Turbine Challenge </title>
 
-        <link rel = 'shortcut icon' type = 'image/x-icon' href = 'favicon.ico' />
+        <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
         
+        <!-- styling background -->
         <style>
             body {
-                background-image: url('/assets/cloud_background.png');
-                background-repeat: no-repeat;
-                background-attachment: fixed;
-                background-size: cover;
-                color: white;
+                background-color: #e6f8ff;
                 font-family: verdana;
             }
-        
         </style>
+
     </head>
 
     <body>
-        <h1 style = "text-align: center;" style = "backdrop-filter: blur(100px);" > Cyberhawk Turbine Challenge </h1>
-        <p style = "text-align: center; margin: 10px;">Spin the wind turbine to inspect the items!</p>
+        <!-- header text and turbine gif styling -->
+        <h1 style="text-align: center; color: #4e8a9f; margin: 20px;"> Cyberhawk Turbine Challenge </h1>
+        <center><img src="/assets/wind_turbine.gif" alt="A picture of a wind turbine in a field" style="margin: 20px;"></center>
+        <h3 style="text-align: center; color: #4e8a9f; margin: 20px;"> Spin the wind turbine to inspect the items! </h3>
         
         <!-- click button options -->
         <form>
-            <input type = "button" value = "Spin Wind Turbine" id = "output" style = "display: block; margin: 0 auto;" onclick = "loadWindTurbine()" /> <!--centers submit button-->
+            <input type="button" value="Spin Wind Turbine" id="output" style="display: block; 
+                                                                              margin: 40px auto; 
+                                                                              background-color: #4e8a9f; 
+                                                                              border: none; 
+                                                                              color: white;" onclick="loadWindTurbine()"/> <!--centers submit button-->
         </form>
 
 
@@ -51,6 +54,7 @@ rendered in a browser
             }
         </script>
         
-        <div id = "display_message" style = "text-align: center;" ></div>
+        <!-- render ajax call on page-->
+        <div id="display_message" style="text-align: center;" ></div>
 
     </body>
