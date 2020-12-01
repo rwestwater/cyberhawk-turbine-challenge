@@ -3,8 +3,7 @@ An application written in PHP and HTML that visualises a unique spin on the clas
 
 ## Installation
 
-PHP 7.1.33
-Hosted on AWS EC2
+PHP 7.1.33 hosted on AWS EC2
 
 ## Usage
 
@@ -32,3 +31,4 @@ for numbers in range 1 to 100 {
 ## Nice to haves (future development) 
 - Pulling the inspection data down in an Ajax call and processing the results in the browser
 - Add a randomiser option where an event click will pick a number between 1 and 100 and render the results
+- Pass through unit testing (TDD)
