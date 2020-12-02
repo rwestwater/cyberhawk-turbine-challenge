@@ -58,3 +58,4 @@ rendered in a browser
             <marquee direction="up" height="200" width="450" bgcolor="#e6f8ff" text-color="#4e8a9f"><div id="display_message" style="text-align: center;" ></div></marquee>
         </div>    
     </body>
+</html>
