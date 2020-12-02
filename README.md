@@ -24,7 +24,7 @@ PHP 7.4 hosted on AWS Elastic Beanstalk
 
 You will be given a custom hostname provided by Elastic Beanstalk where you can view the code in production
 
-## Usage
+## Pseudocode
 
 ```php
 
