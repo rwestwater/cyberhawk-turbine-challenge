@@ -3,7 +3,7 @@ An application written in PHP and HTML/CSS that visualises a unique spin on the 
 PHP 7.4 hosted on AWS Elastic Beanstalk 
 
 ## Installation
-###Requirements for installation
+### Requirements for installation
 - Your own AWS account
 
 ### Installation Steps
