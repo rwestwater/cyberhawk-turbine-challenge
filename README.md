@@ -1,4 +1,4 @@
-# cyberhawk-turbine_challenge
+# cyberhawk-turbine-challenge
 An application written in PHP and HTML/CSS that visualises a unique spin on the classic FizzBuzz Challenge
 
 PHP 7.4 hosted on AWS Elastic Beanstalk 
